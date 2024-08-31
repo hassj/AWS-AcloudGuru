@@ -1,0 +1,61 @@
+Hello, Cloud Gurus and welcome to Comparing CodeGuru. In this lesson,
+we're going to learn all about Amazon CodeGuru. So let's.
+Get started. When programmers.
+Write code, it usually goes through a code review process with a manager,
+or a colleague to ensure that the code works well.
+It doesn't introduce any security vulnerabilities or bugs to your application,
+but this is time consuming,
+and sometimes people aren't always available to do code reviews for a bunch of
+different reasons.
+AWS have aimed to make this process simpler with Amazon CodeGuru,
+which is a service that uses machine learning to help review code and even helps
+optimize your application performance.
+It's not a complete replacement for code review,
+but it can help lighten the load. Now it not only helps to review code.
+It can also detect critical issues, security, vulnerabilities,
+and hard to find bugs that another programmer might not even pick up during a
+code review. CodeGuru has two main features.
+There's CodeGuru Profiler, and the CodeGuru.
+Reviewer.
+Amazon CodeGuru Profiler is a tool that analyzes your code and will help you
+identify the expensive lines. By expensive in this context,
+I'm talking about the lines of code, which use the most CPU power to execute,
+and it provides visualizations and recommendations on how to fix the expensive
+code too.
+You can see in this image just by moving the mouse over a section of the
+analysis, it predicts that this piece of code will cost you
+$1,765 a year.
+With this visualized you're in a much better position to do something about
+fixing it.
+CodeGuru Profiler really allows you to understand the run-time behavior of the
+applications,
+how they interact with the CPU utilization of the system they're running on,
+and how latency may be introduced to your application due to poorly structured
+code.
+You receive recommendations from the service as to how you can remediate the
+issues as well. It doesn't simply tell you there's a problem.
+It intelligently explains how you might be able to fix it.
+Amazon CodeGuru Reviewer on the other hand,
+uses machine learning to identify critical issues and possibly hard to
+find bugs in your code repositories,
+which helps you improve the overall quality.
+It detects deviation from best practices and will flag common issues that it
+finds as well,
+which lets you fix them before they cause more problems at a later date.
+It doesn't just show you the information in the AWS console either.
+It links right into your code repository and will show you the exact lines of
+codes it's advising you about. CodeGuru Reviewer has some awesome benefits.
+In fact, it identifies code quality issues in nine broad categories,
+AWS best practices, Java best practices, concurrency,
+deadlocks, resource leaks, sensitive information leaks,
+common code bugs, code cloning and input validation.
+The fact that this can be automated is a huge benefit,
+or addition to any manual review systems,
+that your organization may have in place.
+It can really help an organization to step up the overall quality of their code,
+reduce expensive CPU cycles and just generally produce better code.
+And with machine learning involved,
+the suggestions on how to improve your code and detect issues,
+are just going to get better and better as time goes on. All right,
+I hope you enjoyed learning about Amazon CodeGuru. Thanks for watching.
+If you have any questions, please let me know. Otherwise feel free to move on.

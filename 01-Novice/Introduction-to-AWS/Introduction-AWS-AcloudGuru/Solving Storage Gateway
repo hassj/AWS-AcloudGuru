@@ -1,0 +1,55 @@
+Hello, Cloud Gurus and welcome to Solving Storage Gateway. In this lesson,
+we're going to learn all about AWS Storage Gateway. So let's get started.
+AWS Storage Gateway is a service which gives you access to virtually
+unlimited cloud storage, but on-premises.
+So at your office or in your data center,
+and it's actually 3 different storage gateways,
+which work in their own different way to replace traditional storage solutions.
+So let's take a look at all 3. The first is file gateway.
+The file gateway gives you SMB and NFS interfaces to Amazon
+S3. What this means is that in both windows and Linux,
+you will have a file system,
+which looks like a normal network drive attached to your system.
+Your system writes files to them and the file gateway stores them in Amazon S3,
+which can then be used with any other AWS service,
+which interfaces with S3 like machine learning services, analytics,
+or even AWS Lambda.
+This is basically a way of getting any local application you use to store its
+data in the cloud, even if it was only programmed to store files locally.
+The storage gateway takes care of putting the files in the cloud for you
+completely transparent to the application.
+The next storage gateway is called Tape Gateway,
+which presents a virtual tape library on your local network,
+and this is useful for companies who are still backing up their files to type,
+but want to move to the cloud.
+Not only does it provide the virtual tape library on your network,
+it's compatible with all major backup software,
+so there's even less effort involved for your organization.
+The tape contents are stored in S3,
+and you can even implement S3 Glacier,
+or S3 Deep Archive for longtime file archival.
+This is such a great service if you're looking to move your organization's
+backups to the cloud, and you're already using backup software and tape drives.
+Once running,
+you can do away with all the expensive tape drives and their related hardware
+failures, offsite storage costs, and constant maintenance needs,
+and you can do that just by clicking a few things in the AWS Storage Gateway
+console. The final storage gateway is Volume Gateway.
+Volume Gateway is a service that presents an iSCSI block storage volume
+to your on-premises applications.
+It stores and manages on-premises data in Amazon S3 on your behalf,
+and it operates in either a stored mode, or a cached mode.
+In cached mode,
+your primary data is stored in S3 and the most frequently accessed
+data is stored locally for low latency access. In the stored mode,
+all of the data is stored locally while also being backed up to S3
+asynchronously.
+All three of these services provide the customer with a fantastic hybrid cloud
+storage service,
+which can really assist in making the transition to AWS by
+kickstarting the data transfer process, and making that process seamless.
+It also includes highly optimized and efficient data transfer mechanisms,
+bandwidth management, and automatic network resilience,
+making sure nothing goes wrong. Okay,
+I hope you've enjoyed learning about AWS Storage Gateway. Thanks for watching.
+If you have any questions, please let me know. Otherwise feel free to move on.

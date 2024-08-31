@@ -1,0 +1,81 @@
+Hello, Cloud Gurus, and welcome to discussing DynamoDB.
+In this lesson,
+we're going to learn all about Amazon DynamoDB.
+So let's get started.
+In the previous lesson, we discussed RDS,
+which is a relational database, which could be searched
+with a structured query language known as SQL.
+Amazon DynamoDB is a bit different
+and it's immediately apparent
+because it's referred to as a NoSQL database service.
+The no in NoSQL can both refer to the fact that the data
+is retrieved differently than a relational database.
+So it doesn't use SQL,
+but the no can also mean not only SQL
+because some NoSQL databases
+actually do support SQL-like queries to get their data.
+It's a little bit confusing,
+but not something you should worry about.
+So about DynamoDB itself,
+AWS themselves refer to DynamoDB
+as a key-value document database,
+which delivers single digit millisecond performance
+at any scale.
+A key-value database is a database
+that stores a key and a related value, let's take a look.
+In this example image table,
+we actually have a few keys in this database
+and a few attributes.
+You can see one key is book
+and the 3 attributes are about the book.
+So the name, the author, and the year published.
+Yet in the album, it only has 2 attributes,
+the name and the artist.
+In a relational database, this isn't possible.
+You need to fill out all attributes correctly
+and they must match.
+In a NoSQL database, you can just store
+the data you require and not worry
+about matching the other data in the table.
+This gives you flexibility in both what you're writing
+and for future use of the database,
+where you might want to store new information,
+it doesn't require you to patch
+or migrate the whole thing.
+And it was built
+to handle really big internet traffic websites
+like amazon.com on big sales days like Prime Day.
+It's fully managed.
+It works in multiple regions and is very durable.
+It has built-in security, backup, and restore.
+It can handle more than 10 trillion requests per day,
+and supports peaks
+of more than 20 million requests per second.
+You can see just from this,
+DynamoDB is a pretty serious database
+for serious internet companies.
+So it has huge performance at scale,
+there are no servers to manage and it's ready
+for any large enterprise to use.
+It also works really well with serverless applications.
+If you recall, when I discussed AWS Lambda
+in a previous lecture,
+AWS Lambda and DynamoDB go hand in hand to store
+and process data without requiring any service.
+It's also great for storing mobile application data,
+as it's fast enough to store real time updates
+from mobile and web applications too,
+things that would be quite challenging
+with a traditional database are solved
+with really fast and powerful features of Amazon DynamoDB.
+Advertising, gaming, retail, banking, and finance,
+media and entertainment, software,
+and of course, the internet.
+All of them have benefited from DynamoDB.
+AWS claim that it handles
+more than 1 trillion requests per day,
+and more than 100,000 customers are using it.
+So it must be doing something right.
+Alright, thanks for listening.
+If you have any questions, please let me know,
+otherwise, feel free to move on to the next lesson.

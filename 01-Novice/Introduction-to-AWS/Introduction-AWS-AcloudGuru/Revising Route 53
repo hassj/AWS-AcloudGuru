@@ -1,0 +1,73 @@
+Hello, Cloud Gurus and welcome to Revising Route 53. In this lesson,
+we're going to learn all about Amazon Route 53, Amazon's DNS web service.
+So let's get started.
+When you.
+First visited our website for the first time, say acloud.guru,
+your browser doesn't have any kind of knowledge about which computer hosts that
+website. It has to use the service, which converts the words,
+acloud.guru into an IP address. To do this,
+we use the domain name system, or DNS.
+DNS is a kind of database,
+which IP addresses map to which domains,
+and Route 53 is a great way of hosting DNS.
+It costs just 50 cents per domain, per month,
+but it's the extra features of Route 53 that bring people to use it.
+Beyond the usual high availability and reliability you're probably used to
+hearing about now regarding AWS services,
+it's also extremely flexible with what it can
+do and it's designed for use with the other Amazon web services.
+Let's take a look at what those extra features are.
+The first.
+Is that when you create a record or a mapping between an IP address and a domain
+name, you have to pick a routing policy.
+A routing policy determines where a user is directed when they try to access
+your website via the domain name.
+So the first of these is the Simple Routing policy,
+which uses the standard DNS functionality.
+Route 53 will reply with the IP address of your web server.
+And that's it.
+There's a weighted policy where you can actually provide multiple IP addresses
+to spread your internet traffic load to.
+So just say you have two different websites and you want to spread traffic to
+both,
+the weight determines how much priority a particular IP address,
+gets versus the others.
+Now the weight can be a number between zero and 255.
+If you give it zero, it gets no traffic.
+If you give 3 IP addresses a weight of a hundred each,
+traffic will be evenly spread among them. In my image,
+you can see we have two IP addresses. If I give the top one,
+a weight of 100 and the bottom one, a weight of 50,
+the top will receive double, the amount of traffic as the bottom one.
+It basically adds up all the weights and divides traffic by the weight given to
+each one.
+This is a great way to test out a new version of your website with a small
+subset of your users,
+and you can even use it to slowly transition all your users to the new website,
+by adjusting the weights until your new site has the biggest weight,
+and your old site has zero. There's also a Geolocation policy,
+which lets you reply with a certain IP address depending on where in the world
+the request is coming from. There's a Latency policy,
+which will reply with the IP address of AWS resources,
+which have the lowest latency or the fastest response time to the user.
+There's also a Failover policy where you have the ability to point traffic at a
+single IP address, say a server that hosts your website,
+but if for some reason that server ever goes offline,
+it also has a failover record,
+which will point your website somewhere else Route 53 does the detection
+itself to determine if the primary target is online or not,
+and it will automatically point the users at the failover target,
+if the primary is unhealthy.
+And then there's a Multivalue Answer policy,
+which simply replies with multiple healthy values for the domain that
+gets queried.
+It does its own checks to see if the IP address it's returning is actually
+healthy, otherwise it won't respond with it.
+Multivalue Answer policies aren't a substitute for a load balancer,
+but it can help with improving availability and load balancing.
+So as you can see, Route 53 is quite a complex,
+but extremely useful service for assisting in keeping your websites
+fast and highly available. It's cost effective, secure,
+and scalable, and with all the different routing policies available,
+it has a solution available for everyone. All right. Thanks for watching.
+If you have any questions, please let me know. Otherwise feel free to move on.

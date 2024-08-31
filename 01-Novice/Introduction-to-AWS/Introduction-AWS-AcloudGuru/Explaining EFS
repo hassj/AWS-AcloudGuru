@@ -1,0 +1,42 @@
+Hello, Cloud Gurus, and welcome to Explaining EFS. In this lesson,
+we're going to learn all about Amazon Elastic File System, so let's get started.
+Amazon Elastic.
+File System is another fully managed service which provides NFS
+shared file system storage for the linux virtual machines in Amazon EC2.
+NFS refers to network file system,
+a protocol that allows you to access files and directories that aren't on your
+system, but are connected to your network. Why would you do this?
+Well, some companies have to process large amounts of data with their EC2
+instances, and it's difficult to analyze data stored in S3,
+so sometimes the data has to be stored on the machines doing the actual
+analysis, and that's where EFS shines.
+Because multiple servers can access the EFS file system,
+at the same time.
+Thousands of machines can connect to the same volume and process the data
+seamlessly. It's highly available and durable too.
+All of your files are automatically stored across multiple availability zones in
+a region to prevent any data loss.
+And because of the service is designed this way,
+EFS has built in protection from an availability zone outage,
+as well as any system, hard disk or even network failures.
+It also has.
+2 Different storage classes,
+a standard and an infrequent access storage class.
+You can enable a function called EFS Lifecycle Management and choose an aging
+off policy,
+where your files will be moved to the infrequent access storage class
+automatically after 7, 14, 30, 60 or 90 days automatically,
+and this can save you loads of money, if you know,
+you don't have to access all of your files all of the time.
+Some of the additional magic of EFS is that it automatically grows and shrinks
+as you add and remove files taking away the need for
+disk management you would normally have with hard disks attached to your virtual
+machines. And finally,
+encryption is also enabled by default when you create an EFS file system,
+allowing you to encrypt the files that are stored in your volumes,
+keeping them all secure and away from prying eyes.
+So that's a fairly quick and simple summary for a simple service.
+Amazon EFS,
+the service that lets you connect to file systems via the network with your
+Linux EC2 servers. Thank you for watching. If you have any questions,
+please let me know. Otherwise feel free to move on to the next lesson.

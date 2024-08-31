@@ -1,0 +1,55 @@
+Hello, Cloud Gurus and welcome to Recognizing Rekognition. In this lesson,
+we're going to learn all about Amazon Rekognition. So let's get started.
+Amazon Rekognition is a service that allows you to analyze images and videos
+with machine learning. It's really simple.
+You give it an image and it returns a list of items it thinks it can see in that
+image and a confidence percentage to go with it,
+which shows you how confident the service is that the item is what it thinks it
+is. Let's look at some really simple examples.
+I uploaded a photo of my office to Rekognition.
+You can see Rekognition analyzed it and has found furniture, table,
+desk, computer keyboard, computers, electronics, monitors, and so on.
+It's even 56% sure that it found the chair, which we know is correct.
+Very cool I think.
+This is AWS using machine learning to detect what's in my
+photos extremely quickly with their pre-trained machine learning algorithm.
+AWS Rekognition has lots of other features, too.
+It can help you with image moderation,
+automatically detecting adult or violent content in your images,
+allowing you to automatically moderate them,
+if you show a lot of images on your platform. In this example,
+I simply uploaded a picture of a knife and it was 83% sure that it was a
+weapon.
+It also has a facial analysis feature allowing you to get a thorough
+analysis on a picture of someone's face.
+Let's see what it said about yours truly. It looks like a face,
+so that's good to know. It appears to me male. Right again.
+Age 29 to 45. That's correct. I was 35 when this was taken.
+Not smiling, calm and not wearing glasses. That's all pretty accurate.
+So that feature is pretty cool.
+There's also a Celebrity Recognition feature. I tried Donald Glover,
+AKA Childish Gambino, and it got it 100% correct. That's very cool.
+There's also a face comparison feature allowing you to compare faces,
+to see if they match. So I use the same picture of Donald Glover earlier,
+and then a group image of the cast of the TV show community.
+You can see it hits with a 99.9% match on Donald,
+even though he doesn't have a beard in both photos.
+It accurately identified the match, and that's very cool.
+If you have texts that you want to extract from an image Rekognition can help
+with this too. I tried our logo and it easily recognized A Cloud Guru,
+which you can then copy and paste out of the image.
+And finally Rekognition has a feature where you can automatically detect
+personal protective equipment, or PPE.
+You can see how this could be very useful in certain industries,
+such as construction, or healthcare.
+So that's a lot of features packed into this very awesome piece of software,
+Amazon Rekognition. It has a million uses,
+and I'm sure you can think of one of your own. Personally,
+I've written an Amazon Alexa application,
+which uses Rekognition to look at an image of a security camera overlooking my
+own backyard, and Alexa can tell me with about 99% confidence if I
+left my clothes on the clothesline,
+and I'll leave a link in the resources section of this lecture,
+if you want to read more about how I made that. Thanks for watching.
+If you have any questions, please let me know.
+Otherwise feel free to move on to the next lesson.

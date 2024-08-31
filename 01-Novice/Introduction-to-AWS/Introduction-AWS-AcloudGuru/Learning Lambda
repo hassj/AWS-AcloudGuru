@@ -1,0 +1,66 @@
+Hello, Cloud Gurus and welcome to Learning Lambda. In this lesson,
+we're going to learn what Lambda is. AWS Lambda.
+It's something very close to our hearts here at A Cloud Guru,
+because it kicked off the serverless computing craze.
+What's serverless computing? Well it's compute, but without servers.
+Let me elaborate. Say you have a piece of code you want to run.
+A really simple example.
+Maybe you have a big following on Twitter and your main topic is cryptocurrency,
+and you want to automatically send out a tweet every day that
+posts the Bitcoin to US dollar conversion rate.
+Let's think of how we would create this from absolutely nothing.
+You're in an empty room with a laptop and that's it,
+but you don't keep your laptop on 24 hours a day, so you need a server.
+You might look at Amazon EC2 and start up a virtual server.
+Then you pick one of the Linux ones, login and install a programming language.
+Let's say Python or nodeJS. Then you write your code.
+You get it all working.
+You set up a scheduled job to run that code every day at 9:00 AM.
+And you have to maintain a virtual EC2 machine.
+You have to pay for it to run 24/7 or some kind of schedule where it
+automatically turns on at 8:55 AM runs your tasks, post the tweet,
+and then shuts down at 9:01 AM.
+Then you're also paying for hard disk storage network,
+traffic and everything else involved.
+You're maintaining the Linux operating system,
+which requires kernel and security patches.
+You're also maintaining Python and all of its patches and updates as well.
+And that's a lot of work. There is an easier way,
+and that way is with AWS Lambda.
+AWS Lambda is a serverless compute service,
+which runs your programming code in response to events.
+And that event could be a timer that triggers it,
+or someone visits a certain part of your website, or they upload an image to it,
+and so on. There's lots of different events that you can use.
+AWS Lambda runs the programming code somewhere. No one knows where, well,
+maybe the people at AWS who created it, but that's the point.
+There are no servers for you to install, maintain, and pay for.
+All you have to do is put your code in the AWS Lambda website or
+upload it using some command line tools, and it's there.
+Available for you to run whenever required.
+There's a lots of notable examples of the power of Lambda.
+Say you run an image sharing website where people post photos upon
+upload, you can trigger some Lambda to automatically resize all the photos.
+So you aren't using too much storage space in your cloud storage. Or,
+maybe you want thumbnails created of all the images instantly as well,
+all completely automatic with Lambda.
+Actually a really great example is how this video you're watching now came to
+be.
+I finished recording this lesson and I uploaded it into the A Cloud Guru website
+that our instructors and upon uploading a Lambda function was triggered,
+which automatically transcoded the video into a bunch of different formats,
+tailored for desktop and mobile viewers. All controlled by Lambda.
+All completely automatic. You probably don't notice it,
+but Lambda is everywhere these days doing tasks,
+small and big making every AWS web programmers life easier.
+And the billing you're charged by the millisecond and the price changes
+depending on how much ram that you choose to use.
+I won't go into the numbers because the calculations of compute charges and
+request charges can take some effort,
+but a very quick example is that if your Lambda uses 128
+megabytes of memory and you execute it 30 million times in one
+month, it will end up costing you about $11.63 a month.
+That is super cheap. Lambda is a super powerful service,
+and if you can harness its power, it can save you both time and money.
+All right. Thank you for watching. If you have any questions,
+please let me know. Otherwise feel free to move on.

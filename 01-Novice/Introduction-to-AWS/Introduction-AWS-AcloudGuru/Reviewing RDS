@@ -1,0 +1,47 @@
+Hello, Cloud Gurus and welcome to Reviewing RDS. In this lesson,
+we're going to learn all about Amazon RDS, a relational database service.
+So let's get started.
+RDS stands for relational database service,
+and it lets you create run and scale relational databases in the
+cloud.
+Relational databases are those where the data stored is related to each other.
+For example, you might have a table which stores the students at a school,
+the student ID would be stored along with different attributes about the
+student, such as their name, date of birth and their home address.
+This information can then be queried or searched with structured query
+language or SQL. You can say,
+give me all the students whose first name is Nick or which students were born in
+1994, and it will respond with that list of data for you.
+Amazon RDS has six different database engines for you to choose from,
+and you may have heard of some of them. RDS users can choose from MySQL,
+Maria DB, Microsoft SQL Server.
+PostgreSQL, Oracle, and Amazon Aurora.
+RDS makes it really easy to set up databases.
+It's just a few clicks in the AWS management console.
+The databases are easy to administer.
+You don't need to set up anything because again, it's a fully managed service.
+The databases are highly scalable too.
+You can use them across availability zones and some databases even allow you to
+create, read-only database replicas.
+Giving you a way to increase read throughput for read heavy
+database workloads.
+Backups are automated and you can even make snapshots of your database,
+and you can then turn that snapshot into a new database
+itself. RDS also has automatic host replacement.
+If any of the compute instances running your database fail,
+they're replaced automatically for you,
+and you probably won't even notice that issue. It's really cost-effective.
+You only pay for what you use and there's no upfront commitment.
+There's just a monthly charge for the database instance that you launch,
+similar to how EC2 works.
+And you can even stop and start the instances for up to seven days at a time to
+save money. Even if you've never heard of RDS before today,
+there's a good chance that your own account data for an internet service
+somewhere in the world lives in a database in Amazon RDS.
+Samsung electronics,
+moved users of its own Samsung account into RDS,
+and that hosts 1.1 billion user accounts,
+and they reduce their monthly database costs by 44% in the process,
+which I think is awesome. Thank you for watching.
+If you have any questions about RDS, please let me know.
+Otherwise feel free to move on to the next lesson.

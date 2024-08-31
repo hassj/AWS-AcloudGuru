@@ -1,0 +1,71 @@
+Hello, Cloud Gurus, and welcome to Selecting S3 and S3 Glacier.
+In this lesson,
+we're going to learn about 2 different types of Amazon's Simple Storage Service.
+So let's get started. Amazon Simple Storage Service,
+or S3,q is an object storage service.
+If you recall our previous lecture, it's the one that looks like this,
+where as long as you have the object ID, you can access the file.
+It's extremely popular, and it's an industry leading storage service.
+If you ask anyone who uses AWS, where they store their files,
+I think 99% of the time, the answer is going to be S3.
+So let's walk through the benefits. It has industry leading durability.
+Amazon S3 is designed for 11 9s of data durability.
+11 9s means it's a 99.999 until you have
+11 nines in that number available,
+and that basically means you aren't going to lose a file if it's stored in
+S3.
+Actually the likelihood of an asteroid hitting the data center becomes more
+likely than a file getting lost,
+and that's probably so unlikely that you don't have to even plan for it.
+But planning AWS did,
+and the way they maintain your files is that when you store something in S3,
+the service automatically stores copies of the same file in multiple systems
+across multiple data centers.
+This gives you the data wherever you need it whenever you need it,
+and it's protected against failures, errors, and.
+Threats. S3 also.
+Has different storage classes and you can actually pay for different levels of
+storage, depending on how secure you need your data to be.
+You can actually save money by sacrificing performance.
+So obviously we have the S3 Standard storage class.
+Then there's S3 Standard-Infrequent and S3 One Zone-Infrequent
+access storage for data you want to store, but not access frequently.
+And then there's S3 Glacier and S3 Glacier Deep Archive,
+which are aimed at long-term archival,
+and I'll talk about these a bit more in a moment.
+And there's also Amazon S3 Intelligent Tiering,
+which will try to automatically save you money by moving objects between the
+4 different access tiers when your usage patterns.
+Change. All of these different.
+Storage service classes have different features.
+You don't have to look too closely here as I'll link the relevant website in the
+resources section of the lecture below.
+They use a different amount of availability zones,
+or they might have minimum storage duration charges, or retrieval fees.
+Again,
+AWS provide multiple options for different organizations and you can choose
+what's best for you.
+Next I'd like to talk to you more about S3 Glacier.
+While S3 is designed around frequently accessed data,
+S3 Glacier and S3 Glacier Deep Archive are designed
+around data archival and long-term backup.
+These are extremely cheap options for data you don't need to access quickly.
+If you're happy to wait from 12 to 48 hours to get your files,
+you can store data for as little as $1 per terabyte per month in
+S3 Deep Archive, which is an amazing price.
+Glacier also provides a query-in-place functionality,
+which means you can actually run analytics on your archive data,
+where it's stored.
+You don't have to remove the data from the archive to query it.
+When the time to get your data has come,
+S3 Glacier has 3 different data retrieval options.
+Standard retrieval is a low-cost way to get your data within a few hours,
+so it's ideal for restoring backup data.
+Bulk retrieval is for cost-effective retrieval of large amounts of data for
+non-urgent use cases and Expedited retrieval allows you to quickly
+access your data. So that's our summary of Amazon S3 and S3 Glacier.
+A relatively simple service where you can store and retrieve files,
+but with lots of options provided by AWS,
+so you can customize the storage solution exactly how your
+organization requires it. Thanks for watching. If you have any questions,
+please let me know. Otherwise, feel free to move on to the next lesson.

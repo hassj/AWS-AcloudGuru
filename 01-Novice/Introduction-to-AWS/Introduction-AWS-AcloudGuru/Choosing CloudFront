@@ -1,0 +1,70 @@
+Hello, Cloud Gurus and welcome to Choosing CloudFront. In this lesson,
+we are going to learn all about Amazon CloudFront,
+Amazon's content delivery network. So let's get started.
+Do you recall my lecture about Amazon ElastiCache?
+It was a service you put between your website and your database to cache
+database requests in-memory,
+so you don't have to continually hit that database and read
+information from the disk every time. CloudFront is like that,
+but instead of between your website and your database,
+it exists between your website and the people visiting your website,
+and its purpose is to deliver data, videos, applications,
+and websites to your customers globally with low latency and high
+transfer speeds. How does it do that? Well,
+if you recall how Amazon has regions around the world for you to run their
+services in, they also have something called edge locations,
+which refer to the locations around the world that they can serve your website.
+from with CloudFront.
+They use a global network of more than 225 points of presence,
+in 88 cities, across 45 countries.
+This means if you have a website hosted in US East 1,
+so North Virginia in the USA,
+and suddenly your website gets really popular in South Africa,
+the users are going to have a lot of latency requesting website data so far
+away. With CloudFront,
+the internet traffic isn't going to have to travel halfway around the world and
+back for all of these South African internet users to access your website.
+CloudFront will be serving as much of your website as possible
+from its edge locations in Cape Town and Johannesburg.
+How does it do this? Well, anytime a client requests,
+something from your website,
+it actually accesses CloudFront first and CloudFront
+automatically redirects the request of the file that you want to the nearest
+edge location.
+The files are then stored at the edge location in their cache for a period of
+time that you specify.
+If a visitor requests content that has been cached longer than the expiration
+time specified, CloudFront checks the origin server,
+that is your web server to see if a new version of the file is available.
+If it is, it copies the new version over to the edge location.
+So this means any changes you make to the files are replicated to edge locations
+as your visitors request the content, and then the client receives the file.
+It's a brilliant system and it's what keeps websites running fast,
+no matter where in the world you may be requesting them from.
+CloudFront also has additional features, security being a very large one.
+If your website is suddenly available via a data center,
+nowhere near your actual web server,
+you are actually protected against multiple types of network and denial of
+service attacks.
+It's the CloudFront service which will be the target of these network attacks
+instead of you,
+and Amazon have the resources to deal with that a lot better than you probably
+do. Your web server is also protected against sudden traffic spikes,
+because again,
+CloudFront is handling the large amount of requests that would normally be
+hitting your web server.
+They're simply cached and served from the edge locations instead.
+CloudFront even has a feature called Lambda at Edge,
+which gives you the ability to run your Lambda code at these edge locations,
+instead of back in the region you normally operate in.
+This reduces latency and improves performance massively keeping your
+compute closer to the users requesting it.
+CloudFront brings you lots of real-time metrics and logging too,
+so you can see what's being requested, where from,
+and how quickly. It's cost-effective,
+it uses pay as you go pricing,
+and you only pay for what you use with no minimum fees.
+So speed up your website, secure your website,
+protect your website, all with Amazon's content delivery network,
+Amazon CloudFront. Thanks for watching. If you have any questions,
+please let me know. Otherwise feel free to move on to the next lesson.

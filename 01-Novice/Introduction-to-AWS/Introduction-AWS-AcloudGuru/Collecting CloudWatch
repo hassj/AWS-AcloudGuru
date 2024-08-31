@@ -1,0 +1,42 @@
+Hello, Cloud Gurus and welcome to Collecting CloudWatch. In this lesson,
+we're going to learn all about Amazon CloudWatch. So let's get started.
+Amazon CloudWatch is a monitoring and observability service for AWS.
+It's built so you can see what's going on in your AWS account.
+It lets you collect metrics or data from your services.
+It currently integrates with about 70 AWS services.
+So if you're a new organization wondering how to monitor everything happening in
+your AWS account, CloudWatch, most likely has you covered.
+There's loads of predefined metrics, which each service has,
+and CloudWatch will automatically collect these for you.
+Now it doesn't just collect,
+it also displays this data for you in various graphs,
+and it gives you a unified view of all of your AWS resources by these graphs.
+And you can even set alarms based on the data in those graphs,
+and you can trigger various things to occur based on those alarms too.
+CloudWatch also allows you to send your log files to it,
+so you have a centralized log store for your entire organization.
+It also allows you to interactively search and analyze your log data too,
+which can help you quickly and effectively respond to problems when they arise.
+Let's look at an example of what you could do with CloudWatch and CloudWatch
+logs.
+Say you have a Linux EC2 instance and people use SSH to connect to it,
+so port 22. The SSH port is open to the world,
+but you want to know if anyone is attempting to hack into your servers via SSH.
+What you can do is send your SSH login logs to CloudWatch logs.
+You can use a filter on these logs to automatically detect failed logins and
+graph them. Then you can create an alarm on that graph.
+When the amount of filed logins over a five minute period is say a higher than
+five. And when that's triggered you are notified. The
+overall principle is simple. You get a metric into CloudWatch,
+then you can graph the metric and take action on it should it reach a threshold.
+This is infinitely expandable.
+You can log anything you want to CloudWatch using something called a custom
+metric. You can then graph that metric and be alerted on any threshold you set.
+Want to know when your projected billing for the month is going to be over $0?
+You can set an alarm for that to ensure that you stay within the AWS free tier
+and don't spend more money that you want to. It's the power of CloudWatch,
+a service that lets you watch over your AWS services,
+observe what you need and gives you the actionable insights you need to monitor
+your applications to make sure they never go offline. Thanks for watching.
+If you have any questions, please let me know.
+Otherwise feel free to move on to the next lesson.
