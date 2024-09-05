@@ -15,3 +15,6 @@
 ![Basic Blog with cached with high availibility cloudfront](https://github.com/hassj/AWS-DEVOPS-AcloudGuru/blob/main/01-Novice/Introduction-to-AWS/Image/10-High-availability-cdn-cached.JPG)
 
 > note: in region 2 rds is replication of rds in Region 1, supported readonly feature.
+
+
+
