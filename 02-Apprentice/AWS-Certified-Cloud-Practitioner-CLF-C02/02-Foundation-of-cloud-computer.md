@@ -31,7 +31,44 @@
 ![Examp tips](https://github.com/hassj/AWS-DEVOPS-AcloudGuru/blob/main/02-Apprentice/AWS-Certified-Cloud-Practitioner-CLF-C02/Image/02-Exam-Tips.JPG)
 
 
-## Chapter 2.5: introducing the framework
+## Chapter 2.5: introducing the framework (take a lot of time to review)
+
+### Cloud adoption Framework overview 
+
+### Well-architected framework overview
+
+### Tips
+
+## Chapter 2.6: Meeting the AWS Management Console and Accessing AWS
+
+### The AWS management Console
+
+### Root user
+the first thing need to do after created root user is enable MFA feature and create some user/group for daily task
+
+### The AWS command line interface (CLI)
+
+### Quick tips
+
+![AWS management and accessing](https://github.com/hassj/AWS-DEVOPS-AcloudGuru/blob/main/02-Apprentice/AWS-Certified-Cloud-Practitioner-CLF-C02/Image/02-AWS-management-accessing.JPG)
+
+## Chapter 2.7: Demo, Exploring AWS account
+
+## chapter 2.8: Foundations of Cloud Computing Exam Tips
+
+- Region = two or more AZs ;  AZ = mutiple data centers ; Multi AZ = High availability and fault tolerance
+
+![Region, AZ concepts](https://github.com/hassj/AWS-DEVOPS-AcloudGuru/blob/main/02-Apprentice/AWS-Certified-Cloud-Practitioner-CLF-C02/Image/02-Region-AZ-concepts.JPG)
+
+![Edge Location concepts](https://github.com/hassj/AWS-DEVOPS-AcloudGuru/blob/main/02-Apprentice/AWS-Certified-Cloud-Practitioner-CLF-C02/Image/02-EdgeLocation-concepts.JPG)
+
+![Cloud-Adoptoin-Framework-review](https://github.com/hassj/AWS-DEVOPS-AcloudGuru/blob/main/02-Apprentice/AWS-Certified-Cloud-Practitioner-CLF-C02/Image/02-Cloud-Adoptoin-Framework-review.JPG)
+
+> cloud adoption framework willl help you decrease risk, get more revenue for company...
+
+![AWS-cli](https://github.com/hassj/AWS-DEVOPS-AcloudGuru/blob/main/02-Apprentice/AWS-Certified-Cloud-Practitioner-CLF-C02/Image/02-AWS-cli.JPG)
 
 
-https://learn.acloud.guru/course/1ab914a9-23d2-4776-9862-e2ab3cd24807/learn/753f8528-92a6-4f43-a6d3-0abcc339d859/cc55535e-f72b-4f65-bb22-1e7dc8633188/watch
+
+
+
