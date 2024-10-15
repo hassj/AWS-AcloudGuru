@@ -82,3 +82,34 @@ The benefit of codeArtifact: save time for developer of searching on the interne
 ## Chapter 7.6: Decoupling Application Components
 
 [Decoupling application components](https://docs.aws.amazon.com/prescriptive-guidance/latest/modernization-integrating-microservices/decouple-messaging.html)
+
+![Application integration service](https://github.com/hassj/AWS-DEVOPS-AcloudGuru/blob/main/02-Apprentice/AWS-Certified-Cloud-Practitioner-CLF-C02/Image/07-Application-integrated-service.JPG)
+
+inmong of the applicatoin integration service, SQS is the service used to decopling the applicaiton component.
+
+### Exam tips
+
+![Decoupling Application components tips](https://github.com/hassj/AWS-DEVOPS-AcloudGuru/blob/main/02-Apprentice/AWS-Certified-Cloud-Practitioner-CLF-C02/Image/07-Decoupling-application-component-tips.JPG)
+
+## Chapter 7.7: Introducing Amazon Simple Notification Service (SNS)
+
+What is SNS: easily setup, operate or send notification, sms, email supported
+
+![What is SNS](https://github.com/hassj/AWS-DEVOPS-AcloudGuru/blob/main/02-Apprentice/AWS-Certified-Cloud-Practitioner-CLF-C02/Image/07-What-is-SNS.JPG)
+
+Pub and Sub model:
+
+![What is SNS](https://github.com/hassj/AWS-DEVOPS-AcloudGuru/blob/main/02-Apprentice/AWS-Certified-Cloud-Practitioner-CLF-C02/Image/07-pub-sub-model.JPG)
+
+use case of SNS usage: 
+
+![What is SNS](https://github.com/hassj/AWS-DEVOPS-AcloudGuru/blob/main/02-Apprentice/AWS-Certified-Cloud-Practitioner-CLF-C02/Image/07-SNS-use-cases.JPG)
+
+### Exam tips
+
+SNS allows you to send or push notfication to subcriber.
+
+![SNS exam tips](https://github.com/hassj/AWS-DEVOPS-AcloudGuru/blob/main/02-Apprentice/AWS-Certified-Cloud-Practitioner-CLF-C02/Image/07-SNS-examp-tips.JPG)
+
+## Chapter 7.9: Introducing Amazon Simple Queue Service (SQS)
+
