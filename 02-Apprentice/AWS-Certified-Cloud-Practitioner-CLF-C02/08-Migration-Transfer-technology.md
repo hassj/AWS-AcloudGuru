@@ -1,0 +1,3 @@
+# CHAPTER 8: MIGRATION AND TRANSFER TECHNOLOGY AND SERVICES
+
+https://learn.acloud.guru/course/1ab914a9-23d2-4776-9862-e2ab3cd24807/learn/5ffa7047-1454-4339-b9e2-ddc7373bb4c9/f092ae75-fe87-4d55-a2d5-1cd081b80503/watch
